@@ -75,7 +75,7 @@ Build the Windows installer (`target/release/bundle/nsis/`):
 cd app && npx tauri build
 ```
 
-On first run the app asks for the Maia model: "Locate model file…" picks `models/maia3-5m.history.fp32.onnx` (no download location is set up yet). App data, the cache and saved results live in `%APPDATA%\app.trickiness.desktop`.
+On first run the app offers to download the Maia model (21 MB, from this repo's [`maia3-5m-history-v1` release](https://github.com/hjzaradich/chess-practical-chances/releases/tag/maia3-5m-history-v1); its SHA-256 is checked). "Locate model file…" picks a local copy instead, e.g. `models/maia3-5m.history.fp32.onnx`. App data, the cache and saved results live in `%APPDATA%\app.trickiness.desktop`.
 
 Using it: Open or paste a PGN (pick a game if the file has several), check the ratings (prefilled from WhiteElo/BlackElo), choose Quick, Standard or Deep, and press Analyse. The chart fills as plies finish; click it or use ← → to move through the game. The breakdown shows each player's T, stable moves, trap mass and Maia's likely moves, with moves that lose more than δ flagged. Export writes JSON or CSV.
 

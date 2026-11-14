@@ -28,9 +28,10 @@ use trickiness_core::tree::Ratings;
 
 use paths::Paths;
 
-/// Hosted copy of our Maia ONNX export (tools/export_maia_onnx.py). Not decided yet
-/// (DECISIONS 3.x); `TRICKINESS_MAIA_URL` overrides it.
-const MAIA_MODEL_URL: Option<&str> = None;
+/// Hosted copy of our Maia ONNX export (tools/export_maia_onnx.py), a GitHub release asset
+/// (DECISIONS 5.1). `TRICKINESS_MAIA_URL` overrides it.
+const MAIA_MODEL_URL: Option<&str> =
+    Some("https://github.com/hjzaradich/chess-practical-chances/releases/download/maia3-5m-history-v1/maia3-5m.history.fp32.onnx");
 /// SHA-256 of our export (models/maia3-5m.history.fp32.onnx), checked after download.
 const MAIA_MODEL_SHA256: &str = "f2fc76df6749947d0325fa71e27a87fa0f065abd09b04b8ec01006571040e8a7";
 
