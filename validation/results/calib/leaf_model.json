@@ -1,0 +1,29 @@
+{
+ "name": "lichess-2026-10-ordered-logit-v1",
+ "variant": "linear in pawns + material",
+ "params": {
+  "a0": 0.21966803878176897,
+  "a1": 0.03166203100338028,
+  "g": 1.133533956876571,
+  "w0": -1.6124328490125914,
+  "w1": 0.08852576500610167,
+  "a2": -0.10179680674359796,
+  "w2": -1.008706145234875,
+  "scale": 0.0
+ },
+ "definitions": {
+  "x": "Stockfish eval in pawns at 50k nodes, side to move, clipped to +-10, mate +-12; x~ = scale*tanh(x/scale) if scale > 0",
+  "z": "(mean rating - 1500) / 400",
+  "dr": "(rating to move - other rating) / 400",
+  "m": "(material - 40) / 40, P=1 N=B=3 R=5 Q=9, both sides",
+  "eta": "(a0 + a1*z + a2*m) * x~ + g*dr",
+  "h": "exp(w0 + w1*z + w2*m)",
+  "probabilities": "win = sigmoid(eta - h), loss = sigmoid(-eta - h), draw = 1 - win - loss"
+ },
+ "data": {
+  "positions": 28583,
+  "train": 20101,
+  "test": 8482,
+  "source": "Lichess standard rated 2026-10 (start of month), blitz/rapid/classical, both players in one 200-point band, 800-2399, plies 12/24/36/48"
+ }
+}

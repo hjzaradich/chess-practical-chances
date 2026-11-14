@@ -1,0 +1,345 @@
+{
+  "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR w KQkq - 2 3",
+  "side_to_move": "white",
+  "candidates": [
+    {
+      "san": "Qf3",
+      "uci": "d1f3",
+      "p": 0.03257097518217813,
+      "engine_rank": null,
+      "objective": 0.4905,
+      "practical": 0.5575002793406769,
+      "best_reply": "Qf6",
+      "miss_chance": 0.04882015158100942,
+      "replies": [
+        {
+          "san": "Nf6",
+          "uci": "g8f6",
+          "p": 0.8278276193643226,
+          "weight": 0.6110458798783844,
+          "objective": 0.487,
+          "value": 0.5380212188273069,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "Qf6",
+          "uci": "d8f6",
+          "p": 0.0716923662475719,
+          "weight": 0.3529184144012373,
+          "objective": 0.501,
+          "value": 0.5460438353597299,
+          "is_best": true,
+          "miss": false
+        },
+        {
+          "san": "Bc5",
+          "uci": "f8c5",
+          "p": 0.04882015158100942,
+          "weight": 0.03603570572037822,
+          "objective": 1.0,
+          "value": 1.0,
+          "is_best": false,
+          "miss": true
+        }
+      ]
+    },
+    {
+      "san": "f4",
+      "uci": "f2f4",
+      "p": 0.028413569829201363,
+      "engine_rank": null,
+      "objective": 0.4595,
+      "practical": 0.5366830454274769,
+      "best_reply": "Nf6",
+      "miss_chance": -0.0,
+      "replies": [
+        {
+          "san": "exf4",
+          "uci": "e5f4",
+          "p": 0.5183038009346337,
+          "weight": 0.3753958149851959,
+          "objective": 0.4775,
+          "value": 0.5425970009352803,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "Nf6",
+          "uci": "g8f6",
+          "p": 0.1801887399779648,
+          "weight": 0.4305066618712958,
+          "objective": 0.47250000000000003,
+          "value": 0.5253607637536615,
+          "is_best": true,
+          "miss": false
+        },
+        {
+          "san": "Bc5",
+          "uci": "f8c5",
+          "p": 0.17846521837881446,
+          "weight": 0.12925835384385917,
+          "objective": 0.4905,
+          "value": 0.5433856103039911,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "d6",
+          "uci": "d7d6",
+          "p": 0.08952254275604435,
+          "weight": 0.06483916929964906,
+          "objective": 0.5195,
+          "value": 0.5642571346294887,
+          "is_best": false,
+          "miss": false
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "uci": "b1c3",
+      "p": 0.3423889155782165,
+      "engine_rank": 4,
+      "objective": 0.4995,
+      "practical": 0.534051857030546,
+      "best_reply": "Nf6",
+      "miss_chance": -0.0,
+      "replies": [
+        {
+          "san": "Nf6",
+          "uci": "g8f6",
+          "p": 0.5984068611566553,
+          "weight": 0.764259688480744,
+          "objective": 0.4995,
+          "value": 0.5304281343672025,
+          "is_best": true,
+          "miss": false
+        },
+        {
+          "san": "Bc5",
+          "uci": "f8c5",
+          "p": 0.2750067204520789,
+          "weight": 0.21335740389141303,
+          "objective": 0.5415,
+          "value": 0.5458221599170856,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "Be7",
+          "uci": "f8e7",
+          "p": 0.028850416759137396,
+          "weight": 0.0223829076278428,
+          "objective": 0.5215,
+          "value": 0.5455867251197462,
+          "is_best": false,
+          "miss": false
+        }
+      ]
+    },
+    {
+      "san": "Nf3",
+      "uci": "g1f3",
+      "p": 0.2984973994102889,
+      "engine_rank": 2,
+      "objective": 0.5195,
+      "practical": 0.5253893098691071,
+      "best_reply": "Nf6",
+      "miss_chance": -0.0,
+      "replies": [
+        {
+          "san": "Nf6",
+          "uci": "g8f6",
+          "p": 0.5079689933749193,
+          "weight": 0.680371244325594,
+          "objective": 0.5195,
+          "value": 0.5215719431285479,
+          "is_best": true,
+          "miss": false
+        },
+        {
+          "san": "Bc5",
+          "uci": "f8c5",
+          "p": 0.3688796006484812,
+          "weight": 0.2762199947929318,
+          "objective": 0.5065,
+          "value": 0.5323012435160496,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "Be7",
+          "uci": "f8e7",
+          "p": 0.057970482515602835,
+          "weight": 0.043408760881474044,
+          "objective": 0.5405,
+          "value": 0.5412389279964831,
+          "is_best": false,
+          "miss": false
+        }
+      ]
+    },
+    {
+      "san": "d3",
+      "uci": "d2d3",
+      "p": 0.1903668690020068,
+      "engine_rank": 1,
+      "objective": 0.512,
+      "practical": 0.5223470615583672,
+      "best_reply": "Nf6",
+      "miss_chance": -0.0,
+      "replies": [
+        {
+          "san": "Nf6",
+          "uci": "g8f6",
+          "p": 0.5052999331837474,
+          "weight": 0.6880071385736258,
+          "objective": 0.517,
+          "value": 0.5240454753769346,
+          "is_best": true,
+          "miss": false
+        },
+        {
+          "san": "Bc5",
+          "uci": "f8c5",
+          "p": 0.3800181785467108,
+          "weight": 0.29180642303835774,
+          "objective": 0.518,
+          "value": 0.5159514257834232,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "d6",
+          "uci": "d7d6",
+          "p": 0.02628870697116567,
+          "weight": 0.020186438388016398,
+          "objective": 0.521,
+          "value": 0.5569131773685916,
+          "is_best": false,
+          "miss": false
+        }
+      ]
+    },
+    {
+      "san": "a4",
+      "uci": "a2a4",
+      "p": 0.002602639277499417,
+      "engine_rank": 5,
+      "objective": 0.5075,
+      "practical": 0.5158277052069881,
+      "best_reply": "Nf6",
+      "miss_chance": -0.0,
+      "replies": [
+        {
+          "san": "Nf6",
+          "uci": "g8f6",
+          "p": 0.5416189601584053,
+          "weight": 0.7171894088639335,
+          "objective": 0.5115,
+          "value": 0.5139608239271836,
+          "is_best": true,
+          "miss": false
+        },
+        {
+          "san": "Bc5",
+          "uci": "f8c5",
+          "p": 0.31691029212243343,
+          "weight": 0.24410448518048003,
+          "objective": 0.509,
+          "value": 0.5157597967980928,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "a5",
+          "uci": "a7a5",
+          "p": 0.029944874796608463,
+          "weight": 0.023065449206667164,
+          "objective": 0.5165,
+          "value": 0.5596725108185738,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "a6",
+          "uci": "a7a6",
+          "p": 0.02030558797648468,
+          "weight": 0.015640656748919343,
+          "objective": 0.5095,
+          "value": 0.5378334366407762,
+          "is_best": false,
+          "miss": false
+        }
+      ]
+    },
+    {
+      "san": "Bb3",
+      "uci": "c4b3",
+      "p": 0.0006726899261670707,
+      "engine_rank": 3,
+      "objective": 0.4975,
+      "practical": 0.5114980197782448,
+      "best_reply": "Nf6",
+      "miss_chance": -0.0,
+      "replies": [
+        {
+          "san": "Nf6",
+          "uci": "g8f6",
+          "p": 0.4855956902380983,
+          "weight": 0.6699669898350096,
+          "objective": 0.488,
+          "value": 0.5135257170532831,
+          "is_best": true,
+          "miss": false
+        },
+        {
+          "san": "Bc5",
+          "uci": "f8c5",
+          "p": 0.35089337878062105,
+          "weight": 0.26733961958527497,
+          "objective": 0.504,
+          "value": 0.5005887965183273,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "g6",
+          "uci": "g7g6",
+          "p": 0.05044205248379277,
+          "weight": 0.03843093069746571,
+          "objective": 0.5165,
+          "value": 0.5262496151267215,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "d6",
+          "uci": "d7d6",
+          "p": 0.03184539777089139,
+          "weight": 0.0242624598822497,
+          "objective": 0.5095,
+          "value": 0.5523454780705419,
+          "is_best": false,
+          "miss": false
+        }
+      ]
+    }
+  ],
+  "objective_best": 3,
+  "practical_best": 0,
+  "params": {
+    "lambda": 0.3,
+    "tau": 0.7,
+    "d": 0.5,
+    "p": 0.9,
+    "horizon": 1,
+    "delta": 0.05,
+    "n_engine": 5,
+    "n_human": 5,
+    "human_leaves": true
+  },
+  "white_elo": 2300.0,
+  "black_elo": 2300.0
+}

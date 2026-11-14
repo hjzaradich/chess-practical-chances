@@ -1,0 +1,1981 @@
+{
+  "maia": "maia3-5m.history.fp32.onnx@f2fc76df6749",
+  "nodes": 50000,
+  "rows": [
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.6832826640287277,
+      "fen": "8/3k4/8/8/8/4K3/r7/5R2 w - - 0 1",
+      "id": "rr_1",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": -0.0004402918885884066,
+      "t_white": 0.0001566123074668302,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.6832826640287277,
+      "fen": "8/3k4/8/8/8/4K3/r7/5R2 w - - 0 1",
+      "id": "rr_1",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.00015070724661347956,
+      "t_white": 0.0007128361371216974,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.5922844903506337,
+      "fen": "8/3k4/8/8/8/4K3/r7/5R2 w - - 0 1",
+      "id": "rr_1",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": -0.0006026697137354597,
+      "t_white": 0.0001470948990127119,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.5922844903506337,
+      "fen": "8/3k4/8/8/8/4K3/r7/5R2 w - - 0 1",
+      "id": "rr_1",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.0001715519035002666,
+      "t_white": 0.0005364759855230328,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.5580678008161615,
+      "fen": "8/3k4/8/8/8/4K3/r7/5R2 w - - 0 1",
+      "id": "rr_1",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": -0.0006081160744361158,
+      "t_white": 0.0001205044955510104,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.5580678008161615,
+      "fen": "8/3k4/8/8/8/4K3/r7/5R2 w - - 0 1",
+      "id": "rr_1",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.00024801989400380364,
+      "t_white": 0.00044549725635290027,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.6903148361001634,
+      "fen": "8/8/4k3/8/2r5/8/3K4/6R1 b - - 0 1",
+      "id": "rr_2",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.0008089505015161924,
+      "t_white": -0.00008505761742427786,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.6903148361001634,
+      "fen": "8/8/4k3/8/2r5/8/3K4/6R1 b - - 0 1",
+      "id": "rr_2",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.005342491391218007,
+      "t_white": 0.00047177479110777076,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.5679482065724883,
+      "fen": "8/8/4k3/8/2r5/8/3K4/6R1 b - - 0 1",
+      "id": "rr_2",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.0008460499622101048,
+      "t_white": -0.00009490146238733121,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.5679482065724883,
+      "fen": "8/8/4k3/8/2r5/8/3K4/6R1 b - - 0 1",
+      "id": "rr_2",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.004936068886613576,
+      "t_white": 0.0005325084338189123,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.5298293868916839,
+      "fen": "8/8/4k3/8/2r5/8/3K4/6R1 b - - 0 1",
+      "id": "rr_2",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.0009118178961740053,
+      "t_white": -0.00002864828072868253,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.5298293868916839,
+      "fen": "8/8/4k3/8/2r5/8/3K4/6R1 b - - 0 1",
+      "id": "rr_2",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.0035700775896332915,
+      "t_white": 0.0005719622227747245,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.6425910659032104,
+      "fen": "6k1/5r2/8/8/8/8/1R6/6K1 w - - 0 1",
+      "id": "rr_3",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.6425910659032104,
+      "fen": "6k1/5r2/8/8/8/8/1R6/6K1 w - - 0 1",
+      "id": "rr_3",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.0005373011312210796,
+      "t_white": -0.00019031706538319426,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.5526711775563911,
+      "fen": "6k1/5r2/8/8/8/8/1R6/6K1 w - - 0 1",
+      "id": "rr_3",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 5.551115123125783e-17,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.5526711775563911,
+      "fen": "6k1/5r2/8/8/8/8/1R6/6K1 w - - 0 1",
+      "id": "rr_3",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.0005355011286899414,
+      "t_white": -0.000168858003385286,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.4826546533761512,
+      "fen": "6k1/5r2/8/8/8/8/1R6/6K1 w - - 0 1",
+      "id": "rr_3",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "rook_vs_rook",
+      "draw_rate": 0.4826546533761512,
+      "fen": "6k1/5r2/8/8/8/8/1R6/6K1 w - - 0 1",
+      "id": "rr_3",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.000458360220601306,
+      "t_white": -0.0001605047103997448,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.8698526465775156,
+      "fen": "4k3/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/4K3 w - - 0 1",
+      "id": "blocked_wall",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.8698526465775156,
+      "fen": "4k3/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/4K3 w - - 0 1",
+      "id": "blocked_wall",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.9350599348935202,
+      "fen": "4k3/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/4K3 w - - 0 1",
+      "id": "blocked_wall",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.9350599348935202,
+      "fen": "4k3/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/4K3 w - - 0 1",
+      "id": "blocked_wall",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.9627542596588184,
+      "fen": "4k3/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/4K3 w - - 0 1",
+      "id": "blocked_wall",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.9627542596588184,
+      "fen": "4k3/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/4K3 w - - 0 1",
+      "id": "blocked_wall",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.797015195063183,
+      "fen": "4k3/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/4K3 b - - 0 1",
+      "id": "blocked_wall_black_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.797015195063183,
+      "fen": "4k3/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/4K3 b - - 0 1",
+      "id": "blocked_wall_black_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.871711920178036,
+      "fen": "4k3/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/4K3 b - - 0 1",
+      "id": "blocked_wall_black_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": -1.1102230246251565e-16,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.871711920178036,
+      "fen": "4k3/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/4K3 b - - 0 1",
+      "id": "blocked_wall_black_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.9301606321568917,
+      "fen": "4k3/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/4K3 b - - 0 1",
+      "id": "blocked_wall_black_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.9301606321568917,
+      "fen": "4k3/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/4K3 b - - 0 1",
+      "id": "blocked_wall_black_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 1.1102230246251565e-16,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.7878222643422916,
+      "fen": "7k/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/K7 w - - 0 1",
+      "id": "blocked_wall_corner_kings",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.7878222643422916,
+      "fen": "7k/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/K7 w - - 0 1",
+      "id": "blocked_wall_corner_kings",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": -0.00006663550656993422,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.865956561155949,
+      "fen": "7k/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/K7 w - - 0 1",
+      "id": "blocked_wall_corner_kings",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.865956561155949,
+      "fen": "7k/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/K7 w - - 0 1",
+      "id": "blocked_wall_corner_kings",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": -0.00007520361126323039,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.910933261598949,
+      "fen": "7k/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/K7 w - - 0 1",
+      "id": "blocked_wall_corner_kings",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.910933261598949,
+      "fen": "7k/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/K7 w - - 0 1",
+      "id": "blocked_wall_corner_kings",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": -0.0001288686536679018,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.7934401210022056,
+      "fen": "4k3/8/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/4K3 w - - 0 1",
+      "id": "blocked_wall_low",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.7934401210022056,
+      "fen": "4k3/8/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/4K3 w - - 0 1",
+      "id": "blocked_wall_low",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 5.551115123125783e-17,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.8637755850647599,
+      "fen": "4k3/8/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/4K3 w - - 0 1",
+      "id": "blocked_wall_low",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.8637755850647599,
+      "fen": "4k3/8/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/4K3 w - - 0 1",
+      "id": "blocked_wall_low",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.9242771850083658,
+      "fen": "4k3/8/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/4K3 w - - 0 1",
+      "id": "blocked_wall_low",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "blocked_pawns",
+      "draw_rate": 0.9242771850083658,
+      "fen": "4k3/8/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/4K3 w - - 0 1",
+      "id": "blocked_wall_low",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.0,
+      "t_white": 0.0,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "kp_king_can_enter",
+      "draw_rate": 0.7414783922874804,
+      "fen": "8/8/2k5/1p1p4/1P1P4/2K5/8/8 w - - 0 1",
+      "id": "kp_queenside_king_can_enter",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.10319124521609452,
+      "t_white": 0.19009803114297136,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "kp_king_can_enter",
+      "draw_rate": 0.7414783922874804,
+      "fen": "8/8/2k5/1p1p4/1P1P4/2K5/8/8 w - - 0 1",
+      "id": "kp_queenside_king_can_enter",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.19046302895968548,
+      "t_white": 0.29556953843146827,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "kp_king_can_enter",
+      "draw_rate": 0.7883398768040669,
+      "fen": "8/8/2k5/1p1p4/1P1P4/2K5/8/8 w - - 0 1",
+      "id": "kp_queenside_king_can_enter",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.07782337948582108,
+      "t_white": 0.1396491795237932,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "kp_king_can_enter",
+      "draw_rate": 0.7883398768040669,
+      "fen": "8/8/2k5/1p1p4/1P1P4/2K5/8/8 w - - 0 1",
+      "id": "kp_queenside_king_can_enter",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.07782337948582108,
+      "t_white": 0.192261922790799,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "kp_king_can_enter",
+      "draw_rate": 0.8551685771787358,
+      "fen": "8/8/2k5/1p1p4/1P1P4/2K5/8/8 w - - 0 1",
+      "id": "kp_queenside_king_can_enter",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.06362159906029208,
+      "t_white": 0.10033653784090701,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "kp_king_can_enter",
+      "draw_rate": 0.8551685771787358,
+      "fen": "8/8/2k5/1p1p4/1P1P4/2K5/8/8 w - - 0 1",
+      "id": "kp_queenside_king_can_enter",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.06362159906029208,
+      "t_white": 0.12609567411149403,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "kp_king_can_enter",
+      "draw_rate": 0.7091423576856539,
+      "fen": "8/8/3k4/p1p1p3/P1P1P3/3K4/8/8 w - - 0 1",
+      "id": "kp_three_king_can_enter",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.16427754997659194,
+      "t_white": 0.2315751018223855,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "kp_king_can_enter",
+      "draw_rate": 0.7091423576856539,
+      "fen": "8/8/3k4/p1p1p3/P1P1P3/3K4/8/8 w - - 0 1",
+      "id": "kp_three_king_can_enter",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.20315574780313528,
+      "t_white": 0.3137007865660175,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "kp_king_can_enter",
+      "draw_rate": 0.7972408937108102,
+      "fen": "8/8/3k4/p1p1p3/P1P1P3/3K4/8/8 w - - 0 1",
+      "id": "kp_three_king_can_enter",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.11411923438310223,
+      "t_white": 0.1783401672794423,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "kp_king_can_enter",
+      "draw_rate": 0.7972408937108102,
+      "fen": "8/8/3k4/p1p1p3/P1P1P3/3K4/8/8 w - - 0 1",
+      "id": "kp_three_king_can_enter",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.11411923438310223,
+      "t_white": 0.21747916067157652,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "kp_king_can_enter",
+      "draw_rate": 0.8767058704105807,
+      "fen": "8/8/3k4/p1p1p3/P1P1P3/3K4/8/8 w - - 0 1",
+      "id": "kp_three_king_can_enter",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.0792393782670775,
+      "t_white": 0.13193947505488512,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "kp_king_can_enter",
+      "draw_rate": 0.8767058704105807,
+      "fen": "8/8/3k4/p1p1p3/P1P1P3/3K4/8/8 w - - 0 1",
+      "id": "kp_three_king_can_enter",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.0792393782670775,
+      "t_white": 0.13193947505488512,
+      "v_star_white": 0.5
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.01659870541687775,
+      "fen": "r2q1rk1/3nbppp/p2pbn2/4p1P1/1p2P3/1NN1BP2/PPPQ3P/2KR1B1R w - - 0 13",
+      "id": "sharp_najdorf_english_attack",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.12424742267178435,
+      "t_white": 0.04558335419673043,
+      "v_star_white": 0.551
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.01659870541687775,
+      "fen": "r2q1rk1/3nbppp/p2pbn2/4p1P1/1p2P3/1NN1BP2/PPPQ3P/2KR1B1R w - - 0 13",
+      "id": "sharp_najdorf_english_attack",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.28993988516110525,
+      "t_white": 0.17007195100695116,
+      "v_star_white": 0.551
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.016715767595243593,
+      "fen": "r2q1rk1/3nbppp/p2pbn2/4p1P1/1p2P3/1NN1BP2/PPPQ3P/2KR1B1R w - - 0 13",
+      "id": "sharp_najdorf_english_attack",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.10334887241067481,
+      "t_white": 0.04285334592607326,
+      "v_star_white": 0.551
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.016715767595243593,
+      "fen": "r2q1rk1/3nbppp/p2pbn2/4p1P1/1p2P3/1NN1BP2/PPPQ3P/2KR1B1R w - - 0 13",
+      "id": "sharp_najdorf_english_attack",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.23078044120026853,
+      "t_white": 0.16885078107521412,
+      "v_star_white": 0.551
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.02096398508693396,
+      "fen": "r2q1rk1/3nbppp/p2pbn2/4p1P1/1p2P3/1NN1BP2/PPPQ3P/2KR1B1R w - - 0 13",
+      "id": "sharp_najdorf_english_attack",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.04060524129496529,
+      "t_white": 0.03493193815315232,
+      "v_star_white": 0.551
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.02096398508693396,
+      "fen": "r2q1rk1/3nbppp/p2pbn2/4p1P1/1p2P3/1NN1BP2/PPPQ3P/2KR1B1R w - - 0 13",
+      "id": "sharp_najdorf_english_attack",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.15443776834898654,
+      "t_white": 0.2123009536394198,
+      "v_star_white": 0.551
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.024150042151515127,
+      "fen": "r1bqkb1r/p2n1p2/2p1pn2/1p2P1B1/2pP4/2N5/PP3PPP/R2QKB1R w KQkq - 1 11",
+      "id": "sharp_semislav_botvinnik",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.1660565265306289,
+      "t_white": 0.18812930401977424,
+      "v_star_white": 0.5765
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.024150042151515127,
+      "fen": "r1bqkb1r/p2n1p2/2p1pn2/1p2P1B1/2pP4/2N5/PP3PPP/R2QKB1R w KQkq - 1 11",
+      "id": "sharp_semislav_botvinnik",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.3028335603313756,
+      "t_white": 0.3497680012208998,
+      "v_star_white": 0.5765
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.02396330678347942,
+      "fen": "r1bqkb1r/p2n1p2/2p1pn2/1p2P1B1/2pP4/2N5/PP3PPP/R2QKB1R w KQkq - 1 11",
+      "id": "sharp_semislav_botvinnik",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.1573299114513093,
+      "t_white": 0.17337507838867966,
+      "v_star_white": 0.5765
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.02396330678347942,
+      "fen": "r1bqkb1r/p2n1p2/2p1pn2/1p2P1B1/2pP4/2N5/PP3PPP/R2QKB1R w KQkq - 1 11",
+      "id": "sharp_semislav_botvinnik",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.28069973207450755,
+      "t_white": 0.3169250526345352,
+      "v_star_white": 0.5765
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.026021513488897252,
+      "fen": "r1bqkb1r/p2n1p2/2p1pn2/1p2P1B1/2pP4/2N5/PP3PPP/R2QKB1R w KQkq - 1 11",
+      "id": "sharp_semislav_botvinnik",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.14828849655501852,
+      "t_white": 0.13325144731923327,
+      "v_star_white": 0.5765
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.026021513488897252,
+      "fen": "r1bqkb1r/p2n1p2/2p1pn2/1p2P1B1/2pP4/2N5/PP3PPP/R2QKB1R w KQkq - 1 11",
+      "id": "sharp_semislav_botvinnik",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.2551081545899305,
+      "t_white": 0.2809574723069671,
+      "v_star_white": 0.5765
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.02391778098988772,
+      "fen": "r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 w - - 0 11",
+      "id": "sharp_kid_mar_del_plata",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.11043608165153052,
+      "t_white": 0.06667010598294465,
+      "v_star_white": 0.5905
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.02391778098988772,
+      "fen": "r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 w - - 0 11",
+      "id": "sharp_kid_mar_del_plata",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.1955756140143719,
+      "t_white": 0.13289954017141697,
+      "v_star_white": 0.5905
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.0280307036522827,
+      "fen": "r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 w - - 0 11",
+      "id": "sharp_kid_mar_del_plata",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.08630129799963632,
+      "t_white": 0.06496015824838153,
+      "v_star_white": 0.5905
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.0280307036522827,
+      "fen": "r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 w - - 0 11",
+      "id": "sharp_kid_mar_del_plata",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.13703789727751403,
+      "t_white": 0.11545152898321354,
+      "v_star_white": 0.5905
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.037399843866772545,
+      "fen": "r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 w - - 0 11",
+      "id": "sharp_kid_mar_del_plata",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.05403146015376453,
+      "t_white": 0.05298374525556826,
+      "v_star_white": 0.5905
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.037399843866772545,
+      "fen": "r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 w - - 0 11",
+      "id": "sharp_kid_mar_del_plata",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.08225812131997601,
+      "t_white": 0.07671928534221839,
+      "v_star_white": 0.5905
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.02116474391567642,
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - - 0 13",
+      "id": "sharp_dragon_yugoslav",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.0501716408603064,
+      "t_white": 0.16077026252369064,
+      "v_star_white": 0.6405
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.02116474391567642,
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - - 0 13",
+      "id": "sharp_dragon_yugoslav",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {},
+      "t_black": 0.20716997655722655,
+      "t_white": 0.3620815834317279,
+      "v_star_white": 0.6405
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.021201516987584466,
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - - 0 13",
+      "id": "sharp_dragon_yugoslav",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.04706727855914611,
+      "t_white": 0.1473483480608545,
+      "v_star_white": 0.6405
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.021201516987584466,
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - - 0 13",
+      "id": "sharp_dragon_yugoslav",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {},
+      "t_black": 0.165428151892355,
+      "t_white": 0.31059946539032307,
+      "v_star_white": 0.6405
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.02518482756729598,
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - - 0 13",
+      "id": "sharp_dragon_yugoslav",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.010945581661804593,
+      "t_white": 0.13234841409212772,
+      "v_star_white": 0.6405
+    },
+    {
+      "category": "sharp_opening",
+      "draw_rate": 0.02518482756729598,
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - - 0 13",
+      "id": "sharp_dragon_yugoslav",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {},
+      "t_black": 0.14350416136313182,
+      "t_white": 0.2083487976676326,
+      "v_star_white": 0.6405
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.4713705321999513,
+      "fen": "8/7r/3k4/8/4K3/3B4/8/5R2 w - - 0 1",
+      "id": "rbr_1_attacker_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.002814267185909103,
+      "t_white": 0.0030188939420962013,
+      "v_star_white": 0.504
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.4713705321999513,
+      "fen": "8/7r/3k4/8/4K3/3B4/8/5R2 w - - 0 1",
+      "id": "rbr_1_attacker_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.026144375975564793,
+      "t_white": 0.0025829281470534093,
+      "v_star_white": 0.504
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.3189574650614922,
+      "fen": "8/7r/3k4/8/4K3/3B4/8/5R2 w - - 0 1",
+      "id": "rbr_1_attacker_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.00291345273793453,
+      "t_white": 0.0026391262096128187,
+      "v_star_white": 0.504
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.3189574650614922,
+      "fen": "8/7r/3k4/8/4K3/3B4/8/5R2 w - - 0 1",
+      "id": "rbr_1_attacker_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.007884905223807137,
+      "t_white": 0.00235759727446494,
+      "v_star_white": 0.504
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.25523328462407013,
+      "fen": "8/7r/3k4/8/4K3/3B4/8/5R2 w - - 0 1",
+      "id": "rbr_1_attacker_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.0030463635640979314,
+      "t_white": 0.0024243546859001874,
+      "v_star_white": 0.504
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.25523328462407013,
+      "fen": "8/7r/3k4/8/4K3/3B4/8/5R2 w - - 0 1",
+      "id": "rbr_1_attacker_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.00017109653754815435,
+      "t_white": 0.0024263515933415913,
+      "v_star_white": 0.504
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.5634580200069901,
+      "fen": "8/7r/3k4/8/4K3/3B4/8/5R2 b - - 0 1",
+      "id": "rbr_1_defender_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.0025480346818874122,
+      "t_white": -0.002399607415683236,
+      "v_star_white": 0.5015
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.5634580200069901,
+      "fen": "8/7r/3k4/8/4K3/3B4/8/5R2 b - - 0 1",
+      "id": "rbr_1_defender_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.007909907975135688,
+      "t_white": -0.00035813970637577075,
+      "v_star_white": 0.5015
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.4603030620976363,
+      "fen": "8/7r/3k4/8/4K3/3B4/8/5R2 b - - 0 1",
+      "id": "rbr_1_defender_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.0017601137599971284,
+      "t_white": -0.002453860742544167,
+      "v_star_white": 0.5015
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.4603030620976363,
+      "fen": "8/7r/3k4/8/4K3/3B4/8/5R2 b - - 0 1",
+      "id": "rbr_1_defender_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.006698861084081464,
+      "t_white": -0.0007620033717207209,
+      "v_star_white": 0.5015
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.45408567381160175,
+      "fen": "8/7r/3k4/8/4K3/3B4/8/5R2 b - - 0 1",
+      "id": "rbr_1_defender_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.0016527084275501647,
+      "t_white": -0.002170839483478515,
+      "v_star_white": 0.5015
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.45408567381160175,
+      "fen": "8/7r/3k4/8/4K3/3B4/8/5R2 b - - 0 1",
+      "id": "rbr_1_defender_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.0014604583555470896,
+      "t_white": -0.001465686610270911,
+      "v_star_white": 0.5015
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.5264182370403621,
+      "fen": "8/8/2k5/6r1/8/2KB4/8/4R3 w - - 0 1",
+      "id": "rbr_2_attacker_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.00368416220104556,
+      "t_white": 0.0010318184305255773,
+      "v_star_white": 0.5015
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.5264182370403621,
+      "fen": "8/8/2k5/6r1/8/2KB4/8/4R3 w - - 0 1",
+      "id": "rbr_2_attacker_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.21274280245832072,
+      "t_white": 0.00031009013062666124,
+      "v_star_white": 0.5015
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.4270838177739301,
+      "fen": "8/8/2k5/6r1/8/2KB4/8/4R3 w - - 0 1",
+      "id": "rbr_2_attacker_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.003775414970344282,
+      "t_white": 0.0009261810635762258,
+      "v_star_white": 0.5015
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.4270838177739301,
+      "fen": "8/8/2k5/6r1/8/2KB4/8/4R3 w - - 0 1",
+      "id": "rbr_2_attacker_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.18293871524763533,
+      "t_white": 0.00015104587257019908,
+      "v_star_white": 0.5015
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.3662331979456508,
+      "fen": "8/8/2k5/6r1/8/2KB4/8/4R3 w - - 0 1",
+      "id": "rbr_2_attacker_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.004172957889758189,
+      "t_white": 0.0006467899299739122,
+      "v_star_white": 0.5015
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.3662331979456508,
+      "fen": "8/8/2k5/6r1/8/2KB4/8/4R3 w - - 0 1",
+      "id": "rbr_2_attacker_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.11127735296752694,
+      "t_white": -1.470615841991929e-6,
+      "v_star_white": 0.5015
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.5459769247572843,
+      "fen": "8/8/2k5/6r1/8/2KB4/8/4R3 b - - 0 1",
+      "id": "rbr_2_defender_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": -0.000042729323705970046,
+      "t_white": 0.0024452031960964238,
+      "v_star_white": 0.505
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.5459769247572843,
+      "fen": "8/8/2k5/6r1/8/2KB4/8/4R3 b - - 0 1",
+      "id": "rbr_2_defender_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.15259531231412027,
+      "t_white": 0.002811606864809413,
+      "v_star_white": 0.505
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.4239984141504403,
+      "fen": "8/8/2k5/6r1/8/2KB4/8/4R3 b - - 0 1",
+      "id": "rbr_2_defender_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": -0.00013150602124661903,
+      "t_white": 0.0024645717301307046,
+      "v_star_white": 0.505
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.4239984141504403,
+      "fen": "8/8/2k5/6r1/8/2KB4/8/4R3 b - - 0 1",
+      "id": "rbr_2_defender_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.11877326174936564,
+      "t_white": 0.0023922126790744125,
+      "v_star_white": 0.505
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.3902458725051294,
+      "fen": "8/8/2k5/6r1/8/2KB4/8/4R3 b - - 0 1",
+      "id": "rbr_2_defender_to_move",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": -0.0003231462250293249,
+      "t_white": 0.0025900092614147274,
+      "v_star_white": 0.505
+    },
+    {
+      "category": "rb_vs_r",
+      "draw_rate": 0.3902458725051294,
+      "fen": "8/8/2k5/6r1/8/2KB4/8/4R3 b - - 0 1",
+      "id": "rbr_2_defender_to_move",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "attacker": "white",
+        "defender": "black"
+      },
+      "t_black": 0.05833369852926268,
+      "t_white": 0.0024902630734063846,
+      "v_star_white": 0.505
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.02367896599420077,
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "id": "trap_blackburne_shilling",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": -0.1005,
+      "t_white": 0.3091633021659397,
+      "v_star_white": 0.9345
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.02367896599420077,
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "id": "trap_blackburne_shilling",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.016571150279093554,
+      "t_white": 0.5094409261628235,
+      "v_star_white": 0.9345
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.024920917290354373,
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "id": "trap_blackburne_shilling",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": -0.1005,
+      "t_white": 0.24534272178601546,
+      "v_star_white": 0.9345
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.024920917290354373,
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "id": "trap_blackburne_shilling",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.023022900374054897,
+      "t_white": 0.4236035712981203,
+      "v_star_white": 0.9345
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.03301963661866656,
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "id": "trap_blackburne_shilling",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": -0.1005,
+      "t_white": 0.23058124018900095,
+      "v_star_white": 0.9345
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.03301963661866656,
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "id": "trap_blackburne_shilling",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.013715350365578909,
+      "t_white": 0.38216891227719474,
+      "v_star_white": 0.9345
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.026474108743532947,
+      "fen": "r1b1kbnr/ppppqppp/2n5/4P3/8/5N2/PPP1PPPP/RNBQKB1R w KQkq - 3 4",
+      "id": "trap_englund",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.04016353149239704,
+      "t_white": 0.0580869650779583,
+      "v_star_white": 0.9530000000000001
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.026474108743532947,
+      "fen": "r1b1kbnr/ppppqppp/2n5/4P3/8/5N2/PPP1PPPP/RNBQKB1R w KQkq - 3 4",
+      "id": "trap_englund",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.044054869830789635,
+      "t_white": 0.14519104817188766,
+      "v_star_white": 0.9530000000000001
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.025092319982997817,
+      "fen": "r1b1kbnr/ppppqppp/2n5/4P3/8/5N2/PPP1PPPP/RNBQKB1R w KQkq - 3 4",
+      "id": "trap_englund",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.03901354072613217,
+      "t_white": 0.08567476642422245,
+      "v_star_white": 0.9530000000000001
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.025092319982997817,
+      "fen": "r1b1kbnr/ppppqppp/2n5/4P3/8/5N2/PPP1PPPP/RNBQKB1R w KQkq - 3 4",
+      "id": "trap_englund",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.04424356586940096,
+      "t_white": 0.1552507247140371,
+      "v_star_white": 0.9530000000000001
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.02937197010455016,
+      "fen": "r1b1kbnr/ppppqppp/2n5/4P3/8/5N2/PPP1PPPP/RNBQKB1R w KQkq - 3 4",
+      "id": "trap_englund",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.03799999999999993,
+      "t_white": 0.11363944826449468,
+      "v_star_white": 0.9530000000000001
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.02937197010455016,
+      "fen": "r1b1kbnr/ppppqppp/2n5/4P3/8/5N2/PPP1PPPP/RNBQKB1R w KQkq - 3 4",
+      "id": "trap_englund",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.04399999999999993,
+      "t_white": 0.1869157567432952,
+      "v_star_white": 0.9530000000000001
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.026802148355170183,
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3p2B1/3P4/2N5/PP2PPPP/R2QKBNR w KQkq - 0 6",
+      "id": "trap_elephant",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.02580541089141153,
+      "t_white": 0.4305473765073091,
+      "v_star_white": 0.5295000000000001
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.026802148355170183,
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3p2B1/3P4/2N5/PP2PPPP/R2QKBNR w KQkq - 0 6",
+      "id": "trap_elephant",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.07642252924041071,
+      "t_white": 0.43515396974178056,
+      "v_star_white": 0.5295000000000001
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.029109854314402,
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3p2B1/3P4/2N5/PP2PPPP/R2QKBNR w KQkq - 0 6",
+      "id": "trap_elephant",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.006459606580699773,
+      "t_white": 0.39556679970154995,
+      "v_star_white": 0.5295000000000001
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.029109854314402,
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3p2B1/3P4/2N5/PP2PPPP/R2QKBNR w KQkq - 0 6",
+      "id": "trap_elephant",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.03493197870446085,
+      "t_white": 0.3991648319331167,
+      "v_star_white": 0.5295000000000001
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.036004661986348725,
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3p2B1/3P4/2N5/PP2PPPP/R2QKBNR w KQkq - 0 6",
+      "id": "trap_elephant",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.004515060693505379,
+      "t_white": 0.29489169533137705,
+      "v_star_white": 0.5295000000000001
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.036004661986348725,
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3p2B1/3P4/2N5/PP2PPPP/R2QKBNR w KQkq - 0 6",
+      "id": "trap_elephant",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.024066854022388395,
+      "t_white": 0.2978248415232487,
+      "v_star_white": 0.5295000000000001
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.024100765731122027,
+      "fen": "r1bqkbnr/2p2ppp/p2p4/1p6/3pP3/1B6/PPP2PPP/RNBQK2R w KQkq - 0 8",
+      "id": "trap_noahs_ark",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.17198056924924737,
+      "t_white": 0.4798257328877568,
+      "v_star_white": 0.505
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.024100765731122027,
+      "fen": "r1bqkbnr/2p2ppp/p2p4/1p6/3pP3/1B6/PPP2PPP/RNBQK2R w KQkq - 0 8",
+      "id": "trap_noahs_ark",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.2962041061486979,
+      "t_white": 0.49546408153544497,
+      "v_star_white": 0.505
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.023828969941662368,
+      "fen": "r1bqkbnr/2p2ppp/p2p4/1p6/3pP3/1B6/PPP2PPP/RNBQK2R w KQkq - 0 8",
+      "id": "trap_noahs_ark",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.142191672562613,
+      "t_white": 0.505,
+      "v_star_white": 0.505
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.023828969941662368,
+      "fen": "r1bqkbnr/2p2ppp/p2p4/1p6/3pP3/1B6/PPP2PPP/RNBQK2R w KQkq - 0 8",
+      "id": "trap_noahs_ark",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.2712376513426896,
+      "t_white": 0.505,
+      "v_star_white": 0.505
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.02964124620601013,
+      "fen": "r1bqkbnr/2p2ppp/p2p4/1p6/3pP3/1B6/PPP2PPP/RNBQK2R w KQkq - 0 8",
+      "id": "trap_noahs_ark",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.08885710150992066,
+      "t_white": 0.48148147279121317,
+      "v_star_white": 0.505
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.02964124620601013,
+      "fen": "r1bqkbnr/2p2ppp/p2p4/1p6/3pP3/1B6/PPP2PPP/RNBQK2R w KQkq - 0 8",
+      "id": "trap_noahs_ark",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "trapper": "black",
+        "victim": "white"
+      },
+      "t_black": 0.17099014546766428,
+      "t_white": 0.48320752872480977,
+      "v_star_white": 0.505
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.01943213496017805,
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "id": "trap_scholars_mate",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "trapper": "white",
+        "victim": "black"
+      },
+      "t_black": 0.09651791485119299,
+      "t_white": -0.009391219981663423,
+      "v_star_white": 0.468
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.01943213496017805,
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "id": "trap_scholars_mate",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "trapper": "white",
+        "victim": "black"
+      },
+      "t_black": 0.10709782534865625,
+      "t_white": 0.28271129232956815,
+      "v_star_white": 0.468
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.0195569217793734,
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "id": "trap_scholars_mate",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "trapper": "white",
+        "victim": "black"
+      },
+      "t_black": 0.10013098141826066,
+      "t_white": -0.009499999999999953,
+      "v_star_white": 0.468
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.0195569217793734,
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "id": "trap_scholars_mate",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "trapper": "white",
+        "victim": "black"
+      },
+      "t_black": 0.10865300012552759,
+      "t_white": 0.20610883258673557,
+      "v_star_white": 0.468
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.023712922476552784,
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "id": "trap_scholars_mate",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "trapper": "white",
+        "victim": "black"
+      },
+      "t_black": 0.09032436246203379,
+      "t_white": -0.009499999999999953,
+      "v_star_white": 0.468
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.023712922476552784,
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "id": "trap_scholars_mate",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "trapper": "white",
+        "victim": "black"
+      },
+      "t_black": 0.10591782318743131,
+      "t_white": 0.1438791169775313,
+      "v_star_white": 0.468
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.02290631959003432,
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b KQkq - 2 5",
+      "id": "trap_caro_kann_smothered",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "trapper": "white",
+        "victim": "black"
+      },
+      "t_black": 0.3395526808195216,
+      "t_white": 0.1078046833069744,
+      "v_star_white": 0.516
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.02290631959003432,
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b KQkq - 2 5",
+      "id": "trap_caro_kann_smothered",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1100.0,
+      "roles": {
+        "trapper": "white",
+        "victim": "black"
+      },
+      "t_black": 0.3835003450286343,
+      "t_white": 0.23385804446066538,
+      "v_star_white": 0.516
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.02541168715626805,
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b KQkq - 2 5",
+      "id": "trap_caro_kann_smothered",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "trapper": "white",
+        "victim": "black"
+      },
+      "t_black": 0.35854101733500204,
+      "t_white": 0.08501528043101275,
+      "v_star_white": 0.516
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.02541168715626805,
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b KQkq - 2 5",
+      "id": "trap_caro_kann_smothered",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1500.0,
+      "roles": {
+        "trapper": "white",
+        "victim": "black"
+      },
+      "t_black": 0.36829611067510226,
+      "t_white": 0.17417169426219703,
+      "v_star_white": 0.516
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.03268018246742242,
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b KQkq - 2 5",
+      "id": "trap_caro_kann_smothered",
+      "k": 1,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "trapper": "white",
+        "victim": "black"
+      },
+      "t_black": 0.2744033131265291,
+      "t_white": 0.04637438755545531,
+      "v_star_white": 0.516
+    },
+    {
+      "category": "opening_trap",
+      "draw_rate": 0.03268018246742242,
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b KQkq - 2 5",
+      "id": "trap_caro_kann_smothered",
+      "k": 2,
+      "p": 0.9,
+      "rating": 1900.0,
+      "roles": {
+        "trapper": "white",
+        "victim": "black"
+      },
+      "t_black": 0.281097569895302,
+      "t_white": 0.08291996350575431,
+      "v_star_white": 0.516
+    }
+  ],
+  "stockfish": "Stockfish 19"
+}

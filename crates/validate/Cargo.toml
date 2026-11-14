@@ -1,0 +1,20 @@
+[package]
+name = "trickiness-validate"
+description = "Phase 2 validation runs: sanity positions and Lichess calibration samples"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[[bin]]
+name = "validate"
+path = "src/main.rs"
+
+[dependencies]
+trickiness-core = { path = "../core" }
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_yaml = "0.9"
+shakmaty = "0.30"

@@ -1,0 +1,253 @@
+{
+  "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+  "side_to_move": "black",
+  "candidates": [
+    {
+      "san": "Ngxe5",
+      "uci": "g4e5",
+      "p": 0.2105064550023969,
+      "engine_rank": 1,
+      "objective": 0.473,
+      "practical": 0.6172567237089199,
+      "best_reply": "e3",
+      "miss_chance": 0.4046015258211071,
+      "replies": [
+        {
+          "san": "Nxe5",
+          "uci": "f3e5",
+          "p": 0.4349218733925788,
+          "weight": 0.31914248055776273,
+          "objective": 0.4835,
+          "value": 0.4617413178102564,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "axb4",
+          "uci": "a3b4",
+          "p": 0.4046015258211071,
+          "weight": 0.2968936319085742,
+          "objective": 1.0,
+          "value": 1.0,
+          "is_best": false,
+          "miss": true
+        },
+        {
+          "san": "Bxe5",
+          "uci": "f4e5",
+          "p": 0.11442453915769137,
+          "weight": 0.08396388753366295,
+          "objective": 0.4895,
+          "value": 0.47603626379395314,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "e3",
+          "uci": "e2e3",
+          "p": 0.03961948332226275,
+          "weight": 0.3,
+          "objective": 0.492,
+          "value": 0.44343988981076543,
+          "is_best": true,
+          "miss": false
+        }
+      ]
+    },
+    {
+      "san": "Ncxe5",
+      "uci": "c6e5",
+      "p": 0.08045082468325546,
+      "engine_rank": 3,
+      "objective": 0.453,
+      "practical": 0.5738476660887228,
+      "best_reply": "e3",
+      "miss_chance": 0.32722867519436716,
+      "replies": [
+        {
+          "san": "Nxe5",
+          "uci": "f3e5",
+          "p": 0.48579907793387833,
+          "weight": 0.3579632778462776,
+          "objective": 0.4905,
+          "value": 0.4270501832672894,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "axb4",
+          "uci": "a3b4",
+          "p": 0.32722867519436716,
+          "weight": 0.2411199495809126,
+          "objective": 1.0,
+          "value": 1.0,
+          "is_best": false,
+          "miss": true
+        },
+        {
+          "san": "Bxe5",
+          "uci": "f4e5",
+          "p": 0.13695615751118212,
+          "weight": 0.10091677257280969,
+          "objective": 0.485,
+          "value": 0.45106786311672,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "e3",
+          "uci": "e2e3",
+          "p": 0.025512887435125985,
+          "weight": 0.3,
+          "objective": 0.468,
+          "value": 0.44779706714514816,
+          "is_best": true,
+          "miss": false
+        }
+      ]
+    },
+    {
+      "san": "Bxd2+",
+      "uci": "b4d2",
+      "p": 0.4468686962819982,
+      "engine_rank": 2,
+      "objective": 0.4615,
+      "practical": 0.5268926645844938,
+      "best_reply": "Bxd2",
+      "miss_chance": -0.0,
+      "replies": [
+        {
+          "san": "Qxd2",
+          "uci": "d1d2",
+          "p": 0.9555787283818284,
+          "weight": 0.7,
+          "objective": 0.45,
+          "value": 0.5113086429363942,
+          "is_best": false,
+          "miss": false
+        },
+        {
+          "san": "Bxd2",
+          "uci": "f4d2",
+          "p": 0.02082600613523146,
+          "weight": 0.3,
+          "objective": 0.479,
+          "value": 0.5632553817633931,
+          "is_best": true,
+          "miss": false
+        }
+      ]
+    },
+    {
+      "san": "Bc5",
+      "uci": "b4c5",
+      "p": 0.17288958319584377,
+      "engine_rank": 4,
+      "objective": 0.382,
+      "practical": 0.5066949168736209,
+      "best_reply": "e3",
+      "miss_chance": 0.1978244180358643,
+      "replies": [
+        {
+          "san": "e3",
+          "uci": "e2e3",
+          "p": 0.7631510375163663,
+          "weight": 0.855899449018156,
+          "objective": 0.3965,
+          "value": 0.47402152001185305,
+          "is_best": true,
+          "miss": false
+        },
+        {
+          "san": "Ne4",
+          "uci": "d2e4",
+          "p": 0.10707072466071256,
+          "weight": 0.07799315459043497,
+          "objective": 0.4505,
+          "value": 0.47369797122911783,
+          "is_best": false,
+          "miss": true
+        },
+        {
+          "san": "b4",
+          "uci": "b2b4",
+          "p": 0.09075369337515174,
+          "weight": 0.06610739639140908,
+          "objective": 1.0,
+          "value": 0.9686504607493616,
+          "is_best": false,
+          "miss": true
+        }
+      ]
+    },
+    {
+      "san": "Qc5",
+      "uci": "e7c5",
+      "p": 0.0018980582624610052,
+      "engine_rank": 5,
+      "objective": 0.0,
+      "practical": 0.4795730408279216,
+      "best_reply": "e3",
+      "miss_chance": 0.164369792060961,
+      "replies": [
+        {
+          "san": "e3",
+          "uci": "e2e3",
+          "p": 0.7844770794743471,
+          "weight": 0.8787382264785271,
+          "objective": 0.0005,
+          "value": 0.4077565496864206,
+          "is_best": true,
+          "miss": false
+        },
+        {
+          "san": "axb4",
+          "uci": "a3b4",
+          "p": 0.164369792060961,
+          "weight": 0.12126177352147298,
+          "objective": 1.0,
+          "value": 1.0,
+          "is_best": false,
+          "miss": true
+        }
+      ]
+    },
+    {
+      "san": "Ba5",
+      "uci": "b4a5",
+      "p": 0.08137043614922768,
+      "engine_rank": null,
+      "objective": 0.0,
+      "practical": 0.3875997802404103,
+      "best_reply": "b4",
+      "miss_chance": -0.0,
+      "replies": [
+        {
+          "san": "b4",
+          "uci": "b2b4",
+          "p": 0.9456577688107596,
+          "weight": 1.0,
+          "objective": 0.0,
+          "value": 0.3875997802404103,
+          "is_best": true,
+          "miss": false
+        }
+      ]
+    }
+  ],
+  "objective_best": 0,
+  "practical_best": 0,
+  "params": {
+    "lambda": 0.3,
+    "tau": 0.7,
+    "d": 0.5,
+    "p": 0.9,
+    "horizon": 1,
+    "delta": 0.05,
+    "n_engine": 5,
+    "n_human": 5,
+    "human_leaves": true
+  },
+  "white_elo": 1900.0,
+  "black_elo": 1900.0
+}

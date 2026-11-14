@@ -1,0 +1,94 @@
+# Sanity positions for SPEC.md's Purpose table (Phase 2, step 1).
+# Each position: either `fen`, or `moves` (SAN from the start, so Maia gets real history).
+# `roles` names the side each check is about. Every endgame here was checked with Stockfish 19
+# at 3M nodes (all ~99% drawn); the openings are balanced. Henry: replace or add positions freely.
+
+- id: rr_1
+  category: rook_vs_rook
+  fen: "8/3k4/8/8/8/4K3/r7/5R2 w - - 0 1"
+- id: rr_2
+  category: rook_vs_rook
+  fen: "8/8/4k3/8/2r5/8/3K4/6R1 b - - 0 1"
+- id: rr_3
+  category: rook_vs_rook
+  fen: "6k1/5r2/8/8/8/8/1R6/6K1 w - - 0 1"
+
+# Sealed: neither king can reach the other side of the wall (checked by flood fill), and every
+# legal move keeps the draw (Stockfish, 2M nodes).
+- id: blocked_wall
+  category: blocked_pawns
+  fen: "4k3/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/4K3 w - - 0 1"
+- id: blocked_wall_black_to_move
+  category: blocked_pawns
+  fen: "4k3/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/4K3 b - - 0 1"
+- id: blocked_wall_corner_kings
+  category: blocked_pawns
+  fen: "7k/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/8/K7 w - - 0 1"
+- id: blocked_wall_low
+  category: blocked_pawns
+  fen: "4k3/8/8/1p1p1p1p/pPpPpPpP/P1P1P1P1/8/4K3 w - - 0 1"
+
+# Not sealed: a king can get in, and one wrong king move loses (tablebase-exact T for
+# blocked_queenside at 1100 is 0.34). Kept for information, not checked (DECISIONS 2.10).
+- id: kp_queenside_king_can_enter
+  category: kp_king_can_enter
+  fen: "8/8/2k5/1p1p4/1P1P4/2K5/8/8 w - - 0 1"
+- id: kp_three_king_can_enter
+  category: kp_king_can_enter
+  fen: "8/8/3k4/p1p1p3/P1P1P3/3K4/8/8 w - - 0 1"
+
+- id: sharp_najdorf_english_attack
+  category: sharp_opening
+  moves: "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Be3 e5 Nb3 Be6 f3 Be7 Qd2 O-O O-O-O Nbd7 g4 b5 g5 b4"
+- id: sharp_semislav_botvinnik
+  category: sharp_opening
+  moves: "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 Bg5 dxc4 e4 b5 e5 h6 Bh4 g5 Nxg5 hxg5 Bxg5 Nbd7"
+- id: sharp_kid_mar_del_plata
+  category: sharp_opening
+  moves: "d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Nc6 d5 Ne7 Ne1 Nd7 Nd3 f5"
+- id: sharp_dragon_yugoslav
+  category: sharp_opening
+  moves: "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O Qd2 Nc6 Bc4 Bd7 O-O-O Rc8 Bb3 Ne5 h4 h5"
+
+- id: rbr_1_attacker_to_move
+  category: rb_vs_r
+  fen: "8/7r/3k4/8/4K3/3B4/8/5R2 w - - 0 1"
+  roles: {attacker: white, defender: black}
+- id: rbr_1_defender_to_move
+  category: rb_vs_r
+  fen: "8/7r/3k4/8/4K3/3B4/8/5R2 b - - 0 1"
+  roles: {attacker: white, defender: black}
+- id: rbr_2_attacker_to_move
+  category: rb_vs_r
+  fen: "8/8/2k5/6r1/8/2KB4/8/4R3 w - - 0 1"
+  roles: {attacker: white, defender: black}
+- id: rbr_2_defender_to_move
+  category: rb_vs_r
+  fen: "8/8/2k5/6r1/8/2KB4/8/4R3 b - - 0 1"
+  roles: {attacker: white, defender: black}
+
+# Traps: the victim is to move and the natural move loses.
+- id: trap_blackburne_shilling  # 4.Nxe5? Qg5! 5.Nxf7?? Qxg2
+  category: opening_trap
+  moves: "e4 e5 Nf3 Nc6 Bc4 Nd4"
+  roles: {victim: white, trapper: black}
+- id: trap_englund  # 4.Bf4? Qb4+ 5.Bd2 Qxb2 6.Bc3?? Bb4
+  category: opening_trap
+  moves: "d4 e5 dxe5 Nc6 Nf3 Qe7"
+  roles: {victim: white, trapper: black}
+- id: trap_elephant  # 6.Nxd5?? Nxd5 7.Bxd8 Bb4+
+  category: opening_trap
+  moves: "d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 cxd5 exd5"
+  roles: {victim: white, trapper: black}
+- id: trap_noahs_ark  # 8.Qxd4?? c5 and ...c4 traps the bishop
+  category: opening_trap
+  moves: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 d4 b5 Bb3 Nxd4 Nxd4 exd4"
+  roles: {victim: white, trapper: black}
+- id: trap_scholars_mate  # 3...Nf6?? 4.Qxf7#
+  category: opening_trap
+  moves: "e4 e5 Bc4 Nc6 Qh5"
+  roles: {victim: black, trapper: white}
+- id: trap_caro_kann_smothered  # 5...Ngf6?? 6.Nd6#
+  category: opening_trap
+  moves: "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Qe2"
+  roles: {victim: black, trapper: white}

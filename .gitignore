@@ -1,0 +1,16 @@
+target/
+spikes/_dl/
+spikes/_vendor/
+spikes/.venv/
+spikes/s1_maia_rust/target/
+models/
+*.sqlite
+*.sqlite-journal
+engines/
+validation/data/
+tablebases/
+app/node_modules/
+app/dist/
+app/src-tauri/binaries/*.exe
+app/src-tauri/gen/
+*.log
