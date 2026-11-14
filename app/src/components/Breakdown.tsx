@@ -12,6 +12,14 @@ const pct = (x: number) => `${Math.round(x * 100)}%`;
 /** Two decimals, without a "-0.00" for tiny negative values (T is reported raw). */
 export const f2 = (x: number) => (Math.abs(x) < 0.005 ? 0 : x).toFixed(2);
 
+/** Chess players' names for a move's cost in expected score, at δ, 2δ and 3δ. With the
+ *  default δ = 0.05 these are Lichess's thresholds (0.1/0.2/0.3 in its −1..1 win-chance
+ *  scale) on our 0..1 scale (DECISIONS 5.2). */
+const severity = (cost: number, delta: number) =>
+  cost >= 3 * delta ? "Blunder" : cost >= 2 * delta ? "Mistake" : "Inaccuracy";
+const severityNote = (delta: number) =>
+  `Inaccuracy ≥ ${delta}, mistake ≥ ${+(2 * delta).toFixed(2)}, blunder ≥ ${+(3 * delta).toFixed(2)}.`;
+
 function SettingsLine({ s }: { s: Settings }) {
   return (
     <div className="settings-line">
@@ -52,7 +60,7 @@ function Side({
           <div className="label">Stable moves</div>
           <div className="value">{diag ? diag.stable_moves : "–"}</div>
         </div>
-        <div className="stat" title={`Maia's probability on likely moves that lose more than δ = ${delta}`}>
+        <div className="stat" title={`Maia's probability on likely moves that are inaccuracies or worse (give up more than ${delta} of expected score)`}>
           <div className="label">Trap mass</div>
           <div className="value">{diag ? pct(diag.trap_mass) : "–"}</div>
         </div>
@@ -86,7 +94,16 @@ function Side({
                     {pct(m.p)}
                   </td>
                   <td className="num">{f2(m.v)}</td>
-                  <td className="num">{m.loses && <span className="flag">⚠ loses &gt; δ</span>}</td>
+                  <td className="num">
+                    {m.loses && (
+                      <span
+                        className="flag"
+                        title={`Gives up ${(diag.best_value - m.v).toFixed(2)} of expected score vs. the best move. ${severityNote(delta)}`}
+                      >
+                        ⚠ {severity(diag.best_value - m.v, delta)} −{(diag.best_value - m.v).toFixed(2)}
+                      </span>
+                    )}
+                  </td>
                 </tr>
               ))}
             </tbody>

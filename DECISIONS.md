@@ -87,6 +87,7 @@ Departures from `SPEC.md` and answers to its open questions, one line of reason 
 | # | Decision | Reason |
 | --- | --- | --- |
 | 5.1 | Henry chose (2026-11-14): the project is public on GitHub as `hjzaradich/chess-practical-chances` (AGPL-3.0-or-later), and the Maia ONNX file is hosted as an asset of its release `maia3-5m-history-v1`. `MAIA_MODEL_URL` points there; the app still checks the full SHA-256 (`f2fc76df…40e8a7`) after downloading. | A release asset is free, versioned with the code, and the Maia weights are AGPL like this project. A new export gets a new release tag, so old app builds keep downloading the file they expect. |
+| 5.2 | Henry asked (2026-11-14) to replace the breakdown's "⚠ loses > δ" tag. Likely moves that lose more than δ are now tagged **Inaccuracy / Mistake / Blunder** at δ, 2δ and 3δ of expected score, followed by the cost (e.g. "⚠ Mistake −0.12"); the tooltip gives the thresholds. Display only: the core's `loses` flag, trap mass and T are unchanged. | Chess players already know these words, and showing the cost says how bad the move is. With δ = 0.05 the cut-offs (0.05/0.10/0.15) are Lichess's (0.1/0.2/0.3 on its −1..1 win-chance scale), though our expected score also counts draws by the d setting. |
 
 ## Licenses
 
