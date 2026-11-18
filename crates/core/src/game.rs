@@ -98,6 +98,31 @@ fn build(mt: Movetext) -> anyhow::Result<Game> {
     Ok(g)
 }
 
+/// Positions from a start FEN through SAN moves ("1. e4 e5 2. Nf3" works).
+pub fn history_from(fen: Option<&str>, moves: &str) -> anyhow::Result<Vec<Chess>> {
+    let start: Chess = match fen {
+        Some(f) => f.parse::<Fen>().context("bad FEN")?.into_position(CastlingMode::Standard).context("illegal position")?,
+        None => Chess::default(),
+    };
+    let mut hist = vec![start];
+    for tok in moves.split_whitespace() {
+        let t = tok.trim_start_matches(|c: char| c.is_ascii_digit() || c == '.');
+        if t.is_empty() {
+            continue;
+        }
+        let pos = hist.last().unwrap();
+        let m = t
+            .parse::<San>()
+            .map_err(|e| anyhow::anyhow!("{t}: {e}"))?
+            .to_move(pos)
+            .map_err(|e| anyhow::anyhow!("{t}: {e}"))?;
+        let mut next = pos.clone();
+        next.play_unchecked(m);
+        hist.push(next);
+    }
+    Ok(hist)
+}
+
 /// The `index`-th game (0-based) in a PGN text.
 pub fn parse_pgn(text: &str, index: usize) -> anyhow::Result<Game> {
     let mut reader = Reader::new(text.as_bytes());

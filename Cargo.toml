@@ -1,6 +1,9 @@
 [workspace]
 resolver = "2"
-members = ["crates/core", "crates/cli", "crates/validate", "app/src-tauri"]
+members = ["crates/core", "crates/cli", "crates/validate", "crates/py", "app/src-tauri"]
+# The Python extension builds with maturin (python/pyproject.toml), so plain `cargo build`
+# and `cargo test` leave it out and don't need Python.
+default-members = ["crates/core", "crates/cli", "crates/validate", "app/src-tauri"]
 
 [workspace.package]
 version = "0.1.0"

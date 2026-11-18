@@ -81,6 +81,18 @@ fn maia_matches_official_package() {
     assert!(worst_p < 1e-4 && worst_v < 1e-4);
 }
 
+/// Loading the model twice in one process works (ONNX Runtime allows only one environment per
+/// process, so the loads must share it). The Python bindings rely on this for a second Engine.
+#[test]
+fn maia_loads_twice_in_one_process() {
+    let Some(model) = maia_path() else { return };
+    let first = Maia::load(&model, 1).unwrap();
+    drop(first);
+    let second = Maia::load(&model, 1).unwrap();
+    let third = Maia::load(&model, 1).unwrap();
+    assert_eq!(second.id, third.id);
+}
+
 /// Batching must not change results.
 #[test]
 fn maia_batch_equals_single() {

@@ -90,15 +90,23 @@ fn softmax(x: &[f64]) -> Vec<f64> {
     e.into_iter().map(|v| v / s).collect()
 }
 
+/// ONNX Runtime allows one environment per process, ever (it remembers one was built even
+/// after it's dropped), so every model load shares this one. Without it, a second `Maia::load`
+/// in the same process fails, e.g. a second `Engine` in Python.
+static ORT_ENV: std::sync::OnceLock<Result<ort::environment::Environment, String>> = std::sync::OnceLock::new();
+
 impl Maia {
     pub fn load(path: &Path, threads: usize) -> anyhow::Result<Maia> {
         let bytes = std::fs::read(path).with_context(|| format!("reading Maia model {}", path.display()))?;
         let digest = Sha256::digest(&bytes);
         let hex: String = digest.iter().take(6).map(|b| format!("{b:02x}")).collect();
         let name = path.file_name().map(|n| n.to_string_lossy().into_owned()).unwrap_or_default();
-        let env = ort::init().build().map_err(|e| anyhow!("onnxruntime init: {e}"))?;
+        let env = ORT_ENV
+            .get_or_init(|| ort::init().build().map_err(|e| e.to_string()))
+            .as_ref()
+            .map_err(|e| anyhow!("onnxruntime init: {e}"))?;
         let err = |e: &dyn std::fmt::Display| anyhow!("loading Maia model: {e}");
-        let mut builder = Session::builder(&env)
+        let mut builder = Session::builder(env)
             .map_err(|e| err(&e))?
             .with_intra_threads(threads)
             .map_err(|e| err(&e))?;

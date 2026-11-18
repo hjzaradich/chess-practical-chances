@@ -13,7 +13,7 @@ use clap::{Args, Parser, Subcommand};
 use shakmaty::{fen::Fen, CastlingMode, Chess};
 use trickiness_core::analysis::{analyze_ply, Settings};
 use trickiness_core::engines::EngineOracle;
-use trickiness_core::game::{analyze_game, parse_pgn};
+use trickiness_core::game::{analyze_game, history_from, parse_pgn};
 use trickiness_core::leaf::LeafKind;
 use trickiness_core::practical::{practical, PracticalParams};
 use trickiness_core::tree::Ratings;
@@ -93,31 +93,6 @@ enum Cmd {
         #[command(flatten)]
         opts: Opts,
     },
-}
-
-/// Positions from a start FEN through SAN moves ("1. e4 e5 2. Nf3" works).
-fn history_from(fen: Option<&str>, moves: &str) -> anyhow::Result<Vec<Chess>> {
-    let start: Chess = match fen {
-        Some(f) => f.parse::<Fen>().context("bad FEN")?.into_position(CastlingMode::Standard).context("illegal position")?,
-        None => Chess::default(),
-    };
-    let mut hist = vec![start];
-    for tok in moves.split_whitespace() {
-        let t = tok.trim_start_matches(|c: char| c.is_ascii_digit() || c == '.');
-        if t.is_empty() {
-            continue;
-        }
-        let pos = hist.last().unwrap();
-        let m = t
-            .parse::<shakmaty::san::San>()
-            .map_err(|e| anyhow::anyhow!("{t}: {e}"))?
-            .to_move(pos)
-            .map_err(|e| anyhow::anyhow!("{t}: {e}"))?;
-        let mut next = pos.clone();
-        shakmaty::Position::play_unchecked(&mut next, m);
-        hist.push(next);
-    }
-    Ok(hist)
 }
 
 #[derive(Args)]

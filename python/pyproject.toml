@@ -1,0 +1,51 @@
+[build-system]
+requires = ["maturin>=1.9,<2"]
+build-backend = "maturin"
+
+[project]
+name = "practical-chances"
+description = "How likely a human, not an engine, is to go wrong: trickiness, draw rate and rating-aware practical moves from Stockfish and Maia-3"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "AGPL-3.0-or-later"
+authors = [{ name = "Henry Zaradich" }]
+keywords = ["chess", "stockfish", "maia", "analysis"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Rust",
+    "Topic :: Games/Entertainment :: Board Games",
+    "Typing :: Typed",
+]
+dependencies = []
+dynamic = ["version"]
+
+[project.optional-dependencies]
+pandas = ["pandas>=2.0"]
+dev = ["maturin>=1.9,<2", "pytest>=8", "pandas>=2.0", "pandas-stubs", "mypy>=1.10", "ruff>=0.6"]
+
+[project.urls]
+Repository = "https://github.com/hjzaradich/chess-practical-chances"
+
+[tool.maturin]
+# The extension is the Rust crate crates/py, installed as practical_chances._core next to
+# the pure-Python package in src/.
+manifest-path = "../crates/py/Cargo.toml"
+python-source = "src"
+module-name = "practical_chances._core"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["engines: needs Stockfish and the Maia model (skipped if they aren't found)"]
+
+[tool.mypy]
+strict = true
+files = ["src", "tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF", "PT"]
+# Compound asserts ("assert a and b") read fine in these tests.
+ignore = ["PT018"]

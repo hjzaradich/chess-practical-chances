@@ -14,3 +14,11 @@ app/dist/
 app/src-tauri/binaries/*.exe
 app/src-tauri/gen/
 *.log
+python/.venv/
+python/src/practical_chances/*.pyd
+python/src/practical_chances/*.so
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+python/src/practical_chances/*.pdb

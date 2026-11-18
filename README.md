@@ -2,12 +2,13 @@
 
 Loads a PGN and gives three numbers per move, alongside the engine eval: Maia's draw rate D, and a trickiness score for each player (T\_White, T\_Black) at chosen ratings. `SPEC.md` is the source of truth; departures and settled questions are in `DECISIONS.md`.
 
-Status: Phase 3 (desktop GUI) built, awaiting Henry's sign-off on his own games. Phase 2 validation: `validation/REPORT.md`. Phase 0 findings: `spikes/README.md`.
+Status: all four phases built, including Phase 4's practical move (gate: `validation/PHASE4_GATE.md`). There is also a Python package, `practical-chances` (below). Phase 2 validation: `validation/REPORT.md`. Phase 0 findings: `spikes/README.md`.
 
 ## Layout
 
 - `crates/core`: the analysis library (Rust). The metric code (`tree.rs`, `analysis.rs`) is pure and works through the `Oracle` interface. Stockfish, Maia and the SQLite cache sit behind that interface (`stockfish.rs`, `maia.rs`, `cache.rs`, `engines.rs`).
 - `crates/cli`: the `trickiness` command.
+- `crates/py`, `python/`: the Python package `practical_chances`. `crates/py` holds the PyO3 bindings; `python/src` holds the typed API (dataclasses and pandas output), with tests in `python/tests`.
 - `app/`: the desktop app (Tauri + React). The core is linked in; Stockfish ships beside it as a sidecar.
 - `crates/validate`, `validation/`: Phase 2 validation runs and reports.
 - `tools/export_maia_onnx.py`: builds the Maia ONNX file the core needs, from the official weights.
@@ -56,6 +57,21 @@ Options shared by both commands: `--preset quick|standard|deep`, or `--k`, `--p`
 ```
 
 (Placeholder values.) `ply` counts half-moves played, and `san`/`uci` is the move that led to the position. `v_star` is from White's point of view, each `trickiness` and `diagnostics` entry from that player's, and `likely_moves[].v` from the side to move's.
+
+## Python
+
+The core is also a typed Python package, built with maturin:
+
+```python
+from pathlib import Path
+import practical_chances as pc
+
+with pc.Engine(preset="quick") as eng:
+    print(eng.practical_move("e4 e5 Bc4 Nc6", white_elo=800, black_elo=800).summary())
+    df = eng.analyze_game(Path("game.pgn")).to_frame()   # pandas, one row per ply
+```
+
+Setup, the API and the tests are described in [`python/README.md`](python/README.md).
 
 ## Desktop app
 

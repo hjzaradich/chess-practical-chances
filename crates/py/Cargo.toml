@@ -1,0 +1,19 @@
+[package]
+name = "practical-chances-py"
+description = "Python bindings (PyO3) for the trickiness core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[lib]
+# Imported as practical_chances._core; the typed public API is the Python package in python/.
+name = "_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+trickiness-core = { path = "../core" }
+anyhow = "1"
+serde_json = "1"
+shakmaty = "0.30"
+pyo3 = { version = "0.30.1", features = ["extension-module", "abi3-py310", "generate-import-lib"] }
